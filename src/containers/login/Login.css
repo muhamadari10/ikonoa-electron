@@ -1,0 +1,27 @@
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+
+    .loginForm {
+        width: 700px;
+    }
+
+    .loginContainer {
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .error-label {
+        color: crimson;
+        font-size: 1.5 sp;
+    }
+}

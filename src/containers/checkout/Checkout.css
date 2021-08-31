@@ -1,0 +1,73 @@
+ .paymentAdd{
+   display: flex;
+  flex-grow: 4;
+ }
+
+ .paymentList {
+  display: flex;
+  flex-grow: 1;
+ }
+
+ .paymentWrapper {
+  border-top: 1px solid #a4a7b5;
+  border-bottom: 1px solid #a4a7b5;
+ }
+
+
+.numberformatinput {
+  font: inherit;
+  padding: 12px;
+  border-radius: 12rem;
+  border: 1px solid #a4a7b5;
+  transition: all 0.1s linear, padding 0s, border 0s;
+  display: inline-block;
+  padding: 0 1rem;
+  line-height: 2.5rem;
+  height: 2.5rem;
+  color: #2A3039;
+  font-size: 1rem;
+}
+
+.widthmax {
+  width: 100%;
+}
+
+.productList {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.numberformatinput:focus, 
+ 
+.numberformatinput:active {
+      outline: 0;
+      padding: 0 0.9375rem;
+      border: 2px solid #01b6f5;
+      background-color: #fff;
+      box-shadow: 0 0 2px #01b6f5;
+}
+
+.heading1 {
+  font: inherit;
+  font-size: 1.3rem;
+}
+
+.heading2 {
+  font: inherit;
+  font-size: 1.5rem;
+}
+
+.heading3 {
+  font: inherit;
+  font-size: 1rem;
+}
+
+.konfirmWrapper {
+  border-top: 1px dotted #a4a7b5;
+}
+
+.desc-bayar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
